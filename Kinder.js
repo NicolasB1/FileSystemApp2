@@ -28,7 +28,7 @@ function onSucces(fs) {
 	var uri = encodeURI(URL);
 	ft.download(
     uri,
-    fs.root.fullPath+"/logo.png",
+    fs.root.fullPath+"/120px-State-lib-summ.png",
     function(entry) {
         alert("download complete: " + entry.fullPath);
         $("#my_image").attr("src",entry.fullPath);
